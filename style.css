@@ -1,0 +1,319 @@
+* { margin: 0;
+    padding: 0;
+}
+
+.header { min-height: 100vh;
+width: 100%;
+background-image: url(images/bg-top.svg);
+background-position: center;
+background-size: cover;
+position: relative;
+overflow: hidden;}
+
+.title { position: relative;
+    left: 41%;
+color: #8d858c;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.left {position: relative;
+left: 520px;
+top: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #696569;
+font-size: 15px;
+}
+
+.right {position: relative;
+    left: 750px;
+    bottom: -2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #696569;
+    font-size: 15px;
+    }
+
+.border { position: relative;
+    bottom: 35px;
+    border: 2px solid rgb(122, 66, 196);
+    background:  #7a42c4;
+    right: 20px;
+width: 40px;
+height: 15px;
+margin: 20px auto;
+border-radius: 10px;}
+
+.box {position: relative;
+    bottom: 10px;
+    right: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    background:  #ffffff;
+width: 10px;
+height: 10px;
+margin: 10px auto;
+border-radius: 10px;
+transition: 0.5s;}
+
+.box:hover {position: relative;
+    bottom: 10px;
+    right: 12px;
+    left: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    background:  #ffffff;
+width: 10px;
+height: 10px;
+margin: 10px auto;
+border-radius: 10px;
+}
+
+.pack1 {position: relative;
+width: 300px;
+height: 350px;
+border: 4px solid rgb(255, 255, 255);
+border-radius: 5px;
+background-color: white;
+box-shadow: -2px 1px 20px -8px;
+margin: 2px auto;
+right: 300px;
+text-align: center;}
+
+.basic {position: relative;
+    top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.price {position: relative;
+    top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.storage {position: relative;
+    top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 13px 0;
+    width: 250px;
+    left: 25px;
+}
+
+.users {position: relative;
+    top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    
+    padding: 15px 0;
+    width: 250px;
+    left: 25px;
+}
+
+.memory {position: relative;
+    top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+
+    padding: 15px 0;
+    width: 250px;
+    left: 25px;}
+
+    .btn {border: 1px transparent black;
+        padding: 5px 0px;
+        position: relative;
+            top: 90px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgb(145, 61, 255);
+    border-radius: 5px;
+    width: 200px;
+    left: 50px;}
+
+        .btn p { color: white;}
+
+    
+
+    .pack3 {position: relative;
+        width: 300px;
+        height: 350px;
+        border: 4px transparent rgb(255, 255, 255);
+        border-radius: 5px;
+        background: white;
+        box-shadow: -5px 1px 20px -8px;
+        margin: 2px auto;
+        bottom: 0px;
+        text-align: center;}
+        
+        .master {position: relative;
+            top: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+        }
+        
+        .price3 {position: relative;
+            top: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+        .storage3 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
+            padding: 13px 0;
+            width: 250px;
+            left: 25px;
+        }
+        
+        .users3 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            
+            padding: 15px 0;
+            width: 250px;
+            left: 25px;
+        }
+        
+        .memory3 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            
+            padding: 15px 0;
+            width: 250px;
+            left: 25px;}
+
+            .btn3 {border: 1px transparent black;
+                padding: 5px 0px;
+                position: relative;
+                    top: 90px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    font-size: 15px;
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                background-color: rgb(145, 61, 255);
+            border-radius: 5px;
+            width: 200px;
+            left: 50px;}
+    
+
+.pack2 {position: relative;
+        width: 300px;
+        height: 450px;
+        border: 4px transparent rgb(255, 255, 255);
+        border-radius: 5px;
+        background: linear-gradient( #b499ff, #b420f7);
+        box-shadow: -2px 1px 20px -8px;
+        margin: 2px auto;
+        right: 100px;
+        left:100px;
+        bottom: 30px;
+        text-align: center;}
+        
+        .pro {position: relative;
+            top: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+        }
+        
+        .price2 {position: relative;
+            top: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+        .storage2 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
+            padding: 13px 0;
+            width: 250px;
+            left: 25px;
+        }
+        
+        .users2 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            
+            padding: 15px 0;
+            width: 250px;
+            left: 25px;
+        }
+        
+        .memory2 {position: relative;
+            top: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(71, 71, 71);
+            font-weight: bold;
+            font-size: 15px;
+            border-bottom: 1px solid gray;
+            
+            padding: 15px 0;
+            width: 250px;
+            left: 25px;}
+
+            .btn2 {border: 1px transparent black;
+                padding: 5px 0px;
+                position: relative;
+                    top: 90px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                    font-size: 15px;
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+        width: 200px;
+    left: 50px;
+top: 120px;}
+
+            .pack1, .pack2, .pack3 {display: inline-block;
+            left:210px;}
+            .pack3 { left:195px;
+            ;}
+.pack2 { left:200px;}
+
+
+
+
+            
+        
